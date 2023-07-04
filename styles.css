@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    border: 0%;
+    
+}
+#d1{
+    background-color:lightblue;
+    height: 40vw;
+    width: 70vw;
+}
+input{
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+       
+}
+select{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
+button{
+    height: 45px;
+    width:150px ;
+    font-size: 20px;
+   margin-left: 250px;
+   margin-top: 70px;
+   border-radius: 5px;
+}
+label{
+    padding-left:10vw;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:sans-serif;
+  
+}
+
+#d1{
+    position: relative;
+    top: 4vw;
+    left: 15vw;
+    
+}
+#d2{
+    position: relative;
+    top: 150px;
+
+}
+#d3{
+    padding-top:60px;
+    padding-left: 1vw;
+}
+input{
+    margin: 20px;
+}
+img{
+    height: 300px;
+    position: relative;
+    left: 900px;
+ 
+}
+#d4{
+    display: flex;
+}
+span{
+    font-size: 30px;
+   position: relative;
+   top: 100px;
+  right: 170px;
+}
+@media screen and (max-width: 400px){
+    #d1{
+      
+        height: 300vw;
+        width: 235vw;
+        position: relative;
+        top: 40vw;
+        left: 20px;
+    } 
+    img{
+        height: 300px;
+        position: relative;
+        left: 400px;
+        top: 150vw ;
+     
+    }
+    label{
+        padding-left: 12px;
+        font-size: 55px;
+        font-weight: bold;
+        font-family:sans-serif;
+      
+    }
+    input{
+        margin: 20px;
+        width: 200vw;
+        position: relative;
+        right: 85px;
+        height: 70px;
+        font-size: 40px;
+
+
+    }
+    select{
+        margin: 20px;
+        width: 200vw;
+        position: relative;
+        right: 85px;
+        height: 70px;
+        font-size: 40px;
+
+    }
+    button{
+        width: 60vw;
+        height: 15vw;
+        position: relative;
+        right: 30px;
+    }
+    #d3{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0vw;
+    }
+    span{
+        font-size: 50px;
+       position: relative;
+       top: 80px;
+      left: 180px;
+    }
+}
+@media screen and (max-width: 420px){
+    #d1{
+      
+        height: 300vw;
+        width: 235vw;
+        position: relative;
+        top: 40vw;
+        left: 20px;
+    } 
+    img{
+        height: 300px;
+        position: relative;
+        left: 400px;
+        top: 150vw ;
+     
+    }
+    label{
+        padding-left: 12px;
+        font-size: 55px;
+        font-weight: bold;
+        font-family:sans-serif;
+      
+    }
+    input{
+        margin: 20px;
+        width: 200vw;
+        position: relative;
+        right: 85px;
+        height: 70px;
+        font-size: 40px;
+
+
+    }
+    select{
+        margin: 20px;
+        width: 200vw;
+        position: relative;
+        right: 85px;
+        height: 70px;
+        font-size: 40px;
+
+    }
+    button{
+        width: 60vw;
+        height: 15vw;
+        position: relative;
+        right: 30px;
+    }
+    #d3{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0vw;
+    }
+    span{
+        font-size: 50px;
+       position: relative;
+       top: 80px;
+      left: 180px;
+    }
+}
+@media screen and (max-width: 1024px){
+    #d1{
+        background-color:lightblue;
+        height: 50vw;
+        width: 90vw;
+        
+    }
+    input{
+            width: 300px;
+            height: 40px;
+            font-size: 20px;
+           
+    }
+    select{
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+    }
+    button{
+        height: 45px;
+        width:150px ;
+        font-size: 20px;
+       margin-left: 250px;
+       margin-top: 70px;
+       border-radius: 5px;
+    }
+    label{
+        padding-left:8vw;
+        font-size: 35px;
+        font-weight: bold;
+        font-family:sans-serif;
+      
+    }
+    
+    #d1{
+        position: relative;
+        top: 10vw;
+       left: 5vw;
+        
+    }
+    #d2{
+        position: relative;
+        top: 150px;
+    
+    }
+    #d3{
+        padding-top:60px;
+      position: relative;
+      right: 100px;
+    }
+    input{
+        margin: 20px;
+    }
+    img{
+        height: 300px;
+        position: relative;
+        left: 750px;
+     bottom: 5vw;
+     
+    }
+    #d4{
+    display: flex;
+    }
+    span{
+        font-size: 30px;
+       position: relative;
+       top: 70px;
+      right: 170px;
+    } 
+}
+
+    

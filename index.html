@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="d1">
+    <form id="d2" onsubmit="calculateTemp(); return false">  
+    <label for="text">Enter the Temperature to Convert</label>
+    <div id="d4">
+        <img src="thermometer-illustration.jpg" alt="">
+        <div id="d3">
+    <input type="text" value="0" id="temp">
+    <select name="Temperature" id="Temperature">
+        <option value="cel"> &#176;Celsius</option>
+        <option value="fah"> &#176;Fahrenheit</option>
+    </select>
+    <br>
+   <button>Submit</button>
+    <span id="result"></span>
+</div>
+</div>
+   </form>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
